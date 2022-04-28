@@ -51,10 +51,29 @@ export default defineComponent({
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  background-color: #d3d3d3;
-  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);
+}
+.teacher_li {
+  width: 94%;
+  height: 94%;
+}
+
+.swiper {
+  :deep .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  :deep .swiper-slide {
+    width: 94% !important;
+    height: 94%;
+    margin: 0 10px;
+    border: 1px solid #ff8c8c;
+    box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 2%),
+      6.7px 6.7px 5.3px rgb(0 0 0 / 3%), 12.5px 12.5px 10px rgb(0 0 0 / 4%),
+      22.3px 22.3px 17.9px rgb(0 0 0 / 4%);
+  }
+  .swiper-slide-next {
+    margin-left: -1% !important;
+  }
 }
 </style>

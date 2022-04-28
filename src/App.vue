@@ -16,5 +16,7 @@ import myTicket from "./components/myTicket.vue";
   text-align: center;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 </style>
